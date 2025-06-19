@@ -71,39 +71,36 @@ body {
     text-indent: 0px !important;
     text-align:center !important;
     text-align-last: center !important;
+  
 }
+@media (max-width: 768px) {
+  nav a {
+    padding: 10px 20px; 
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+  }
 
-nav {
-            display: flex;
-        }
- 
-        ul {
-            display: flex;
-            list-style: none;
-            width: 100%;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
- 
-        li {
-            width: 100px;
-            margin: 10px;
-            text-align: center;
-        }
- 
- 
- 
- 
-  @media (max-width: 600px) {
-            ul {
-                flex-direction: column;
-            }
- 
-            li {
-                width: 100vw;
-                height: 2rem;
-                margin: 0;
-                margin-bottom: 10px;
-                text-align: center;
-            }
+  header li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .img1 {
+    width: 100px;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  .iconos {
+    width: 20px;
+    height: 20px;
+  }
 }
