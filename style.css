@@ -72,3 +72,38 @@ body {
     text-align:center !important;
     text-align-last: center !important;
 }
+
+nav {
+            display: flex;
+        }
+ 
+        ul {
+            display: flex;
+            list-style: none;
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+ 
+        li {
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+        }
+ 
+ 
+ 
+ 
+  @media (max-width: 600px) {
+            ul {
+                flex-direction: column;
+            }
+ 
+            li {
+                width: 100vw;
+                height: 2rem;
+                margin: 0;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+}
